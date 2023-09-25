@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+h1 {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: gray;
+}
+
+h2 {
+    width: 100%;
+}
+
+#green_box {
+    display: flex;
+    align-items: center;
+    background-color: greenyellow;
+    height: 550px;
+    width: 100%;
+}
+
+#portfolio {
+    width: 1170px;
+    background-color: rgb(255, 168, 168);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio__item {
+    width: 515px;
+    height: 225px;
+    margin-bottom: 20px;
+}
+
+#images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(84, 84, 84);
+}
+
+.images__item {
+    width: 360px;
+    height: 350px;
+    margin: 20px 0px;
+}
+
+article {
+    width: 1170px;
+    background-color: rgb(255, 168, 168);
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article > section {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    width: 100%;
+    height: 360px;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.portfolio__item_1 {background-image: url("../imgs/1.jpg");}
+.portfolio__item_2 {background-image: url("../imgs/2.jpg");}
+.portfolio__item_3 {background-image: url("../imgs/3.jpg");}
+.portfolio__item_4 {background-image: url("../imgs/4.jpg");}
+
+.images__item_1 {background-image: url("../imgs/5.jpg");}
+.images__item_2 {background-image: url("../imgs/6.jpg");}
+.images__item_3 {background-image: url("../imgs/7.jpg");}
+.images__item_4 {background-image: url("../imgs/8.jpg");}
+
+.images__item, .portfolio__item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
